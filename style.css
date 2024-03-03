@@ -1,13 +1,13 @@
  /*-------universal-STYLE-------*/
  @font-face {
   font-family: vishal;
-  src: url(ProtestRevolution-Regular.ttf);
+  src: url(GeneralSans-Regular.otf);
 }
  *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:general sans regular;
+    font-family: vishal;
   }
   *::selection{
     user-select: none ;

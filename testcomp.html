@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    
+         *{
+            font-family:Arial, Helvetica, sans-serif;
+         }
+         .t-card {
+            background-color: rgb(231, 243, 255);
+           width:32rem;
+           height:20rem;
+           
+           overflow: hidden;
+           /* background-color: blue; */
+           display:flex;
+           /* border:solid 3px rgb(210, 30, 30); */
+           border-radius: 10px;
+           gap:1rem;
+           
+           & div:nth-child(1){
+            /* position: absolute;  */
+            width: 34%;
+            /* border-radius: 10px; */
+            overflow: hidden;
+            height:100%;
+            & img{
+                /* border-radius: 10px; */
+                object-fit: cover;
+                width:100%;
+                height:100%;
+            }
+           }
+           & div:nth-child(2){
+           
+            width:60%; 
+            & p{
+                font-size: 1.2rem;
+                text-transform: capitalize;
+                line-height: 1.5rem;
+            } 
+            & p::first-letter{
+                font-size: 2rem;
+            }
+            & div{
+                    display: flex;
+                    & i{
+                        font-size: 1rem;
+                       background-color: black;
+                        padding:0.8rem;  
+                        color:white;
+                        border-radius: 50%; 
+                    }
+                    & span{
+                        margin-top: 0.7rem;
+                        margin-left: 0.4rem;
+                    }
+            }             
+           
+           
+         }
+    </style>
+</head>
+<body>
+    <div class="t-card">
+        <div> <img src="public/Screenshot 2024-02-29 151138.png" alt=""></div>
+        <div>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dicta aut, neque quia eius quasi Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, alias?Lorem ipsum dolor sit amet consectetur, adipisicing elit. "</p>
+            <div ><i class="ri-user-follow-line"></i> <span>certified byer</span></div>
+            <h1>Denvier moder</h1>
+           
+        </div>
+    </div>
+</body>
+</html>

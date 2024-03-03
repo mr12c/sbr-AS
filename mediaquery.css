@@ -1,4 +1,9 @@
 @media (900px<=width<=1300px) {
+    .t-card:hover {
+        /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+        scale:1.1;
+        
+      }
     .nav-bar{
         & li::after{
             top:70%;
@@ -183,8 +188,8 @@
     
 }
 
-@media (350px<=width<=900px) {
-    
+@media (100px<=width<=900px) {
+     
     .p1,.p2,.p3,.p4{
         padding-right: 5rem;
         padding-left:8% ;
@@ -195,14 +200,14 @@
             margin-top:4%;
             
            & h3{
-            font-size: 5vw;
+            font-size: 7vw;
             text-transform: capitalize;
             color:rgb(21, 94, 137);
            }
            & p{
             font-weight: 500;
             /* color:rgb(167, 253, 139); */
-            font-size: 1.8vw;
+            font-size: 3vw;
            }
             
         }
@@ -214,7 +219,7 @@
     width:19vw;
     height:19vw;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 
    }
     }
@@ -226,4 +231,231 @@
         gap: 4rem;
     }
       
+}
+@media (0px<=width<=700px){
+    .cmpny-logo {
+      & img{
+        padding-top:2.3rem;
+        width:11.3rem;
+        height:8rem;
+      }
+    }
+    .test-cont{
+        padding:2rem;
+    }
+    .t-card div:nth-child(1){
+        width:40%;
+    }
+    
+.t-card div:nth-child(2) p{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+    .t-card {
+      width:100%;
+      height:50%;   
+      flex-direction: column;
+    }
+    .t-card div:nth-child(1) {
+      width:100%;
+      height:20%;
+    }
+      .forward {
+        display: none;
+      }
+      .backword {
+        display: none;
+      }
+    .t-card div:nth-child(2) div i {
+        width:3rem;
+        height:3rem;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        background-color: black;
+        padding: 1rem;   
+        color: white;
+        margin-top: 6px;
+        border-radius: 50%;
+      }
+      t-card div:nth-child(2) div span {
+        text-transform: capitalize;
+        
+
+      }
+      .djio {
+        text-transform: capitalize;
+      }
+      .t-card div:nth-child(2) {
+        width:100%;
+        padding-left: 2rem;
+        & p{
+            font-size:1.7rem;
+            font-weight: 800;
+        }
+
+      }
+      .t-card div:nth-child(2) h1{
+        text-transform: capitalize;
+        font-size: 12rem;
+        margin-bottom: 4rem;
+
+            
+      }
+      .t-card div:nth-child(2)  div{
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: center;
+        & i{
+             width:5rem;
+            height:5rem;
+            font-size: 3rem;
+        }
+        & span{
+            margin-right: 3rem;
+        }
+        
+      }
+      #testiname{
+        margin-top: 2rem;
+            
+        font-size: 2rem;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .nav-bar{
+      display: none;
+    }
+
+    #heroimg{
+        width: 50%;
+        left:auto;
+        /* right:%; */
+        left:-12%;
+        /* top: 900%; */
+        /* top:-20%; */
+         /* margin-top: 6rem; */
+
+    }
+    .search-icon {
+        margin-left:20%;
+      & input{
+        width:20rem;
+        height: 4rem;
+        /* font-size: 1.7rem; */
+        
+      }
+    }
+    .hero{
+        flex-direction: column;
+        justify-content: center; 
+        /* align-items: center;    */
+        /* align-items: center; */
+        & .left-of-hero {
+            /* margin-left: rem; */
+            display:flex;
+            flex-direction: column ;
+            align-items: center;
+            justify-content: center;
+          width:70%;
+          /* background-color: blue; */
+          & .fisrpara {
+            font-size: 2rem;
+            margin-top: 2rem;
+            width:30rem;
+            margin-left: 3rem ;
+             /* margin-right: 2rem; */
+          }
+          
+          & h1{
+            font-size: 6.7rem;
+            text-align: center;
+          }
+        }
+        & .right-of-hero {
+          width:100%;
+        }
+    }
+    .background-svg {
+      width:90vw;
+      height:90vw;
+      left:-20%;  
+      top:10%;
+    }
+    .new-arrivals {
+      flex-direction: column;
+      & div:nth-child(1){
+        width:100%;
+         margin-left: auto;
+         margin-right: auto;
+         width:75%;
+          
+      }
+      & div:nth-child(2){
+        & h3{
+            margin-top: 0rem;
+         }
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4rem;
+      }
+
+    }
+
+    .subpara {
+      font-size: 2rem;
+      text-transform: capitalize;
+      text-align: center;
+      font-weight: 500;
+      color:rgb(25, 24, 24);
+    }
+    .features {
+      font-size:1.5rem;
+    }
+    .new-arrivals {
+        flex-direction: column;
+        & div:nth-child(1){
+          width:100%;
+           margin-left: auto;
+           margin-right: auto;
+           width:75%;
+            
+        }
+        & div:nth-child(2){
+          & h3{
+              margin-top: 0rem;
+           }
+           & h1{
+            font-size: 4.3rem;
+           }
+          width:100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 4rem;
+        }
+  
+      }
+    
 }

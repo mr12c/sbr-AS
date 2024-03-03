@@ -347,9 +347,23 @@ if (w > 900) {
       start: "70% 95%",
       end: "70% 50%",
       scrub: true,
+      // markers: true,
     },
   });
-  tl2.to(".heroimage", {
+  tl2.to("#heroimg", {
+    rotate: "44deg",
+  });
+} else {
+  let tl2 = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".hero",
+      start: "50% 95%",
+      end: "50% 50%",
+      scrub: true,
+      // markers: true,
+    },
+  });
+  tl2.to("#heroimg", {
     rotate: "44deg",
   });
 }
@@ -365,22 +379,21 @@ if (w < 900) {
     let newimgae = document.createElement("img");
     newimgae.src = `public/p${m}.png`;
     if (m == 1) {
-      document.querySelector(".p1").
-      append(newimgae);
-      newimgae.setAttribute('class',"tiuo")
+      document.querySelector(".p1").append(newimgae);
+      newimgae.setAttribute("class", "tiuo");
       console.log(newimgae);
     } else if (m == 2) {
       document.querySelector(".p2").append(newimgae);
-      newimgae.setAttribute('class',"tiuo")
+      newimgae.setAttribute("class", "tiuo");
       console.log(newimgae);
     } else if (m == 3) {
       document.querySelector(".p3").append(newimgae);
       console.log(newimgae);
-      newimgae.setAttribute('class',"tiuo")
+      newimgae.setAttribute("class", "tiuo");
     } else {
       document.querySelector(".p4").append(newimgae);
       console.log(newimgae);
-      newimgae.setAttribute('class',"tiuo")
+      newimgae.setAttribute("class", "tiuo");
     }
   }
 }
